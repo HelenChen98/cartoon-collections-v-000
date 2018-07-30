@@ -12,11 +12,16 @@ def summon_captain_planet(veggies)
     i<<"!"
   end
   return veggies
-
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls_long)
+  result = wrong
+  calls_long.each do |i|
+    if i.size > 4
+      result = true
+    end
+  end
+  return result
 end
 
 def find_the_cheese# code an argument here
