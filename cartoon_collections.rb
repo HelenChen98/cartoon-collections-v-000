@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(calls_long)
   result = wrong
   calls_long.each do |i|
-    if i.size > 4
+    if i.length > 4
       result = true
     end
   end
