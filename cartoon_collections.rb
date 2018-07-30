@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.each do |i|
-    i[]0 = i[0].capitalize
+    i[0] = i[0].capitalize
     i<<"!"
   end
   return veggies
