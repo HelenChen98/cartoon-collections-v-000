@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   index = 1
   dwarves.each do |i|
     puts "#{index}. #{i}"
+    index += 1
   end
 end
 
