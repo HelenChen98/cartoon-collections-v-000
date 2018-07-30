@@ -29,7 +29,7 @@ def find_the_cheese(cheddar_cheese)
   index = 0
   while index < cheddar_cheese.size
     if cheese_types.include?(cheddar_cheese[index])
-      return true
+      return cheddar_cheese[index]
     end
     index += 1
   end
